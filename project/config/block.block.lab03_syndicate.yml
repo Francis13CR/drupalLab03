@@ -1,0 +1,23 @@
+uuid: f7345557-0b59-4de8-8c2a-7400e9a0bd9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - lab03
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: lab03_syndicate
+theme: lab03
+region: footer
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
