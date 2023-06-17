@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-francis13cr-drupallab03-ol2lygdklkq.ws-us100.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "436aef9b-86c4-417e-a654-723eb4bf3b8c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "_title_text_cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-16T03:56:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_title_text_cta"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#ff6600",
+            "opacity": null
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "http:\/\/google.com",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor. Phasellus placerat commodo urna, efficitur tristique lacus luctus a.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor. Phasellus placerat commodo urna, efficitur tristique lacus luctus a.<\/p>"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "paragraph",
+            "format": "basic_html",
+            "processed": "paragraph"
+        }
+    ]
+}

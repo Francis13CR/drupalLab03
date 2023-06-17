@@ -1,0 +1,32 @@
+uuid: 65cc1725-c308-4942-adf3-b25a9d09dc6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido_en_dos_columnas
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_contenido_en_dos_columnas
+field_name: field_contenido_en_dos_columnas
+entity_type: node
+bundle: page
+label: 'contenido en dos columnas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      _title_text_cta:
+        weight: 4
+        enabled: false
+      contenido_en_dos_columnas:
+        weight: 3
+        enabled: false
+field_type: entity_reference_revisions

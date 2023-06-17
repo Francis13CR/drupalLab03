@@ -1,0 +1,22 @@
+uuid: 7b70e8ed-8a1e-4997-93f7-d9a335ad5db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type._title_text_cta
+  module:
+    - color_field
+id: paragraph._title_text_cta.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: _title_text_cta
+label: background_color
+description: 'guardar el campo como por ejemplo: #232323'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

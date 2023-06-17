@@ -48,22 +48,40 @@
 %}
 
 {% block paragraph %}
+
+
+
+
   {% set inline_styles = '' %}
   {% if content.field_background_color %}
     {% set inline_styles = 'background-color: ' ~ content.field_background_color[0]['#markup'] ~ ';' %}
   {% endif %}
   <div{{ attributes.addClass(classes) }} style="{{ inline_styles }}">
     {% block content %}
-      <div class="col-md-12 row">
-        <div class="col-md-6">
-          {{content.field_title}}
-          {{content.field_text}}
+      {% if paragraph.bundle == '_title_text_cta' %}
+        <div class="row pt-1">
+          <div class="col-md-8 ps-5 text-justify">
+             <h3 class="pb-0 mb-0">{{content.field_title}}<h3>
+             <p class="font11"> {{content.field_text[0]['#text'] | striptags }} </p> 
+          </div>
+          <div class="col-md-4 pt-4 mb-3 text-center buttonsPara ">
+            <a  href="{{content.field_link[0]['#url']}}" class="btn btn-outline-dark btn-lg">Ver mas..</a>
+          </div>
         </div>
-        <div class="col-md-6 ">
-         <button type="button" class="btn btn-outline-light">Light</button>
-        </div>
-      </div>
-
+      {% elseif paragraph.bundle == 'contenido_en_dos_columnas' %}
+          <div class="row">
+            <div class="col-md-6 h-50 ">
+              <div class="h-50">{{ content.field_columna_izquierda }}</div>
+            </div>
+            <div class="col-md-6">
+              <div>{{ content.field_columna_derecha }}</div>
+            </div>
+          </div>
+          {# {{ dump(content.field_columna_derecha[0]['#paragraph'].get('field_text').getValue()[0]['value']) }} #}
+      {% else %}
+          {{ content }}
+      {% endif %}
+     
     {% endblock %}
   </div>
 {% endblock paragraph %}

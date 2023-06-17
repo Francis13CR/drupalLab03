@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-francis13cr-drupallab03-ol2lygdklkq.ws-us100.gitpod.io\/rest\/type\/paragraph\/_title_text_cta"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8c671312-bdf6-44c4-8164-d78818fcea81"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "_title_text_cta"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-17T21:26:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_columna_derecha"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#d7dcdc",
+            "opacity": null
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "http:\/\/google.com",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Si se agrega a un nodo un elemento \u201ccontenido en dos columnas\u201d se debe poder agregar un title text cta a cada columna y cada una debe mostrarse del 50% del ancho de la pantalla<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Si se agrega a un nodo un elemento \u201ccontenido en dos columnas\u201d se debe poder agregar un title text cta a cada columna y cada una debe mostrarse del 50% del ancho de la pantalla<\/p>"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Soy la columna derecha",
+            "format": "basic_html",
+            "processed": "Soy la columna derecha"
+        }
+    ]
+}
