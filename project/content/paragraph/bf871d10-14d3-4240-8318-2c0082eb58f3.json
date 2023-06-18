@@ -75,7 +75,7 @@
     ],
     "field_background_color": [
         {
-            "color": "#fffff1",
+            "color": "#d7dcdc",
             "opacity": null
         }
     ],
@@ -88,9 +88,7 @@
     ],
     "field_text": [
         {
-            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor. Phasellus placerat commodo urna, efficitur tristique lacus luctus a<\/p>",
-            "format": "basic_html",
-            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor. Phasellus placerat commodo urna, efficitur tristique lacus luctus a<\/p>"
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor"
         }
     ],
     "field_title": [

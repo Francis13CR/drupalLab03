@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 4
+            "value": 7
         }
     ],
     "uuid": [
         {
-            "value": "8c671312-bdf6-44c4-8164-d78818fcea81"
+            "value": "b32321de-cde9-4a67-b47c-24356d9094f6"
         }
     ],
     "langcode": [
@@ -36,24 +36,24 @@
     ],
     "created": [
         {
-            "value": "2023-06-17T21:26:57+00:00",
+            "value": "2023-06-18T03:22:52+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "3"
+            "value": "1"
         }
     ],
     "parent_type": [
         {
-            "value": "paragraph"
+            "value": "node"
         }
     ],
     "parent_field_name": [
         {
-            "value": "field_columna_derecha"
+            "value": "field_components"
         }
     ],
     "behavior_settings": [
@@ -67,29 +67,30 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "field_background_color": [
         {
-            "color": "#d7dcdc",
+            "color": "#232323",
             "opacity": null
         }
     ],
     "field_link": [
         {
-            "uri": "http:\/\/google.com",
+            "uri": "http:\/\/example.com",
             "title": "",
             "options": []
         }
     ],
-    "field_text": [
-        {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor"
-        }
-    ],
     "field_title": [
         {
-            "value": "Soy la columna derecha",
+            "value": "si",
             "format": "basic_html",
-            "processed": "Soy la columna derecha"
+            "processed": "si"
         }
     ]
 }

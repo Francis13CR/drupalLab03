@@ -1,0 +1,20 @@
+uuid: 7acd6dc5-488b-429f-9c3d-5bd9ed83dd4b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lab03V2
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: lab03V2_primary_admin_actions
+theme: lab03V2
+region: highlighted
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

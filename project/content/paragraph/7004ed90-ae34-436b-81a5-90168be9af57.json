@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 4
+            "value": 6
         }
     ],
     "uuid": [
         {
-            "value": "8c671312-bdf6-44c4-8164-d78818fcea81"
+            "value": "7004ed90-ae34-436b-81a5-90168be9af57"
         }
     ],
     "langcode": [
@@ -36,24 +36,9 @@
     ],
     "created": [
         {
-            "value": "2023-06-17T21:26:57+00:00",
+            "value": "2023-06-18T01:09:51+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
-        }
-    ],
-    "parent_id": [
-        {
-            "value": "3"
-        }
-    ],
-    "parent_type": [
-        {
-            "value": "paragraph"
-        }
-    ],
-    "parent_field_name": [
-        {
-            "value": "field_columna_derecha"
         }
     ],
     "behavior_settings": [
@@ -67,29 +52,30 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "field_background_color": [
         {
-            "color": "#d7dcdc",
+            "color": "#111aaa",
             "opacity": null
         }
     ],
     "field_link": [
         {
-            "uri": "http:\/\/google.com",
+            "uri": "http:\/\/www.spuvawrit.gov",
             "title": "",
             "options": []
         }
     ],
-    "field_text": [
-        {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor"
-        }
-    ],
     "field_title": [
         {
-            "value": "Soy la columna derecha",
-            "format": "basic_html",
-            "processed": "Soy la columna derecha"
+            "value": "Autem eligo hos macto nobis pneum premo quidne secundum ymo. Et ibidem imputo odio pneum vindico. Augue diam ille nisl obruo pertineo suscipere. Abdo adipiscing erat nimis utinam. Eligo eu neque persto ut. Dolus quidem tego. Autem defui lobortis paratus r",
+            "format": "plain_text",
+            "processed": "<p>Autem eligo hos macto nobis pneum premo quidne secundum ymo. Et ibidem imputo odio pneum vindico. Augue diam ille nisl obruo pertineo suscipere. Abdo adipiscing erat nimis utinam. Eligo eu neque persto ut. Dolus quidem tego. Autem defui lobortis paratus r<\/p>\n"
         }
     ]
 }

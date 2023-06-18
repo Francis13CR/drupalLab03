@@ -9,8 +9,13 @@ dependencies:
     - node.type.page
   module:
     - entity_reference_revisions
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
@@ -44,6 +49,8 @@ content:
     weight: 102
     region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 101
     region: content
 hidden: {  }

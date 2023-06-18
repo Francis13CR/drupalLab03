@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: _title_text_cta
-label: ' title text cta'
+label: 'title text cta'
 icon_uuid: null
 icon_default: null
 description: ''

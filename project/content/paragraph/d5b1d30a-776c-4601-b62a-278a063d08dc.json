@@ -99,7 +99,7 @@
                         "value": "8c671312-bdf6-44c4-8164-d78818fcea81"
                     }
                 ],
-                "target_revision_id": "26"
+                "target_revision_id": "41"
             }
         ],
         "https:\/\/8080-francis13cr-drupallab03-ol2lygdklkq.ws-us100.gitpod.io\/rest\/relation\/paragraph\/contenido_en_dos_columnas\/field_columna_izquierda": [
@@ -117,7 +117,7 @@
                         "value": "bf871d10-14d3-4240-8318-2c0082eb58f3"
                     }
                 ],
-                "target_revision_id": "27"
+                "target_revision_id": "42"
             }
         ]
     }

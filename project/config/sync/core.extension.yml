@@ -32,6 +32,8 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -49,6 +51,8 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  ui_patterns: 0
+  ui_patterns_library: 0
   update: 0
   user: 0
   views_ui: 0
@@ -58,4 +62,6 @@ theme:
   olivero: 0
   claro: 0
   lab03: 0
+  stable9: 0
+  lab03V2: 0
 profile: minimal

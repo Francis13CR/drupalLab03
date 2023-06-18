@@ -1,0 +1,20 @@
+uuid: 33d9a61d-8881-458f-8e4d-afe4f9f9d422
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lab03V2
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: lab03V2_page_title
+theme: lab03V2
+region: content_above
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

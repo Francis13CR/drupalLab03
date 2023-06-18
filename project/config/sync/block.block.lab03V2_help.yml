@@ -1,0 +1,22 @@
+uuid: c5e9da38-7927-4638-9a73-e0d22269469a
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - lab03V2
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: lab03V2_help
+theme: lab03V2
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

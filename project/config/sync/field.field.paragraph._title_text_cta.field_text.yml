@@ -1,12 +1,10 @@
-uuid: 346d0bca-9e35-42c9-ba14-aa7d82441046
+uuid: 78b64c69-2bc4-4a5c-b841-2886191b8383
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_text
     - paragraphs.paragraphs_type._title_text_cta
-  module:
-    - text
 id: paragraph._title_text_cta.field_text
 field_name: field_text
 entity_type: paragraph
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string
