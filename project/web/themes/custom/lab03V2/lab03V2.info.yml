@@ -1,0 +1,35 @@
+name: lab03V2
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - lab03V2/base
+  - lab03V2/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - lab03V2/user
+  core/drupal.dropbutton:
+    - lab03V2/dropbutton
+  core/drupal.dialog:
+    - lab03V2/dialog
+  file/drupal.file:
+    - lab03V2/file
+  core/drupal.progress:
+    - lab03V2/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.3'
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer : 'Footer'
