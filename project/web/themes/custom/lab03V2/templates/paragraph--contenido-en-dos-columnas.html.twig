@@ -47,11 +47,8 @@
   ]
 %}
 {% block paragraph %}
-  {% set inline_styles = '' %}
-    {% if content.field_background_color %}
-      {% set inline_styles = 'background-color: ' ~ content.field_background_color[0]['#markup'] ~ ';' %}
-    {% endif %}
-  <div{{ attributes.addClass(classes) }} style="{{ inline_styles }}">
+
+  <div{{ attributes.addClass(classes) }} >
     {% block content %}
        <div class="row">
             <div class="col-md-6 ">

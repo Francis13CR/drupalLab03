@@ -49,13 +49,14 @@
 {% block paragraph %}
    {% set inline_styles = '' %}
   {% if content.field_background_color %}
-    {% set inline_styles = 'background-color: ' ~ content.field_background_color[0]['#markup'] ~ ';' %}
+    {% set inline_styles = 'background-color: ' ~ paragraph.field_background_color.0.value.color ~ ';' %}
   {% endif %}
   <div{{ attributes.addClass(classes) }} style="{{ inline_styles }}">
     {% block content %}
     {# {{kint(paragraph.field_text.0.value)}} #}
         <div class="row pt-1">
           <div class="col-md-8 ps-5 text-justify">
+              {# {{kint(paragraph.field_background_color.0.value.color)}} #}
              {{ pattern('h5',{
                text: paragraph.field_title.0.value
               })}} 
