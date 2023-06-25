@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph._title_text_cta.field_background_color
+    - field.field.paragraph._title_text_cta.field_button_
+    - field.field.paragraph._title_text_cta.field_color
     - field.field.paragraph._title_text_cta.field_link
     - field.field.paragraph._title_text_cta.field_text
     - field.field.paragraph._title_text_cta.field_title
     - paragraphs.paragraphs_type._title_text_cta
   module:
-    - color_field
     - link
     - text
 id: paragraph._title_text_cta.default
@@ -17,13 +17,17 @@ targetEntityType: paragraph
 bundle: _title_text_cta
 mode: default
 content:
-  field_background_color:
-    type: color_field_widget_default
-    weight: 5
+  field_button_:
+    type: options_select
+    weight: 7
     region: content
-    settings:
-      placeholder_color: ''
-      placeholder_opacity: ''
+    settings: {  }
+    third_party_settings: {  }
+  field_color:
+    type: options_select
+    weight: 6
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_link:
     type: link_default

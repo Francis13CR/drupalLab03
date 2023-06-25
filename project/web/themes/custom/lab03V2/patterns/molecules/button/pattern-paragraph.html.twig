@@ -1,0 +1,27 @@
+{%
+  set classes = [
+    'row',
+    'pt-1',
+    'me-0',
+    'text-light',
+    ''  ~ color|clean_class
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }} >
+    <div class="col-md-8  mt-1 ps-5 text-justify">
+        {# {{kint(paragraph.field_background_color.0.value.color)}} #}
+        {{ pattern('h5',{
+            text: title
+        })}} 
+        {{ pattern('p',{
+            text: text
+        })}} 
+    </div>
+    <div class="col-md-4 pt-3 mt-1 text-center ">
+        {{ pattern('button',{
+            text: 'more...',
+            url: url
+        }, btnColor )}}
+    </div>
+</div>

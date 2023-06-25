@@ -1,0 +1,36 @@
+paragraph: 
+  label: 'title text cta'
+  description: 'paragraph title text cta '
+  fields: 
+    title: 
+      type: string
+      label: paragraph title
+      preview: 'title'
+    text: 
+      type: string
+      label: paragraph text
+      preview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ipsum consequat vehicula tincidunt. Phasellus ut congue lorem, nec blandit tortor' 
+    url: 
+      type: url
+      label: URL
+      preview: https://google.com
+    color: 
+      type: string
+      label:  background color
+      preview: 'bg-primary'
+    btnColor: 
+      type: string
+      label: button color
+      preview: 'btn-success' 
+  libraries:
+    -
+      paragraph:
+        css:
+          component:
+            css/style.css: {}
+          theme:
+            ../../../libraries/bootstrap/css/bootstrap.min.css: {}
+         
+        js:
+          ../../../libraries/bootstrap/js/bootstrap.min.js: {}
+      

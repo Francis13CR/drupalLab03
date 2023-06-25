@@ -1,0 +1,23 @@
+uuid: bcaac870-3c6e-4014-8b44-e6c8df0a5098
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_color
+    - paragraphs.paragraphs_type._title_text_cta
+  module:
+    - options
+id: paragraph._title_text_cta.field_color
+field_name: field_color
+entity_type: paragraph
+bundle: _title_text_cta
+label: color
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: bg-primary
+default_value_callback: ''
+settings: {  }
+field_type: list_string

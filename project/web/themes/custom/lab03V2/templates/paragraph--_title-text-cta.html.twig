@@ -47,30 +47,16 @@
   ]
 %}
 {% block paragraph %}
-   {% set inline_styles = '' %}
-  {% if content.field_background_color %}
-    {% set inline_styles = 'background-color: ' ~ paragraph.field_background_color.0.value.color ~ ';' %}
-  {% endif %}
-  <div{{ attributes.addClass(classes) }} style="{{ inline_styles }}">
+  <div{{ attributes.addClass(classes) }} >
     {% block content %}
-    {# {{kint(paragraph.field_text.0.value)}} #}
-        <div class="row pt-1">
-          <div class="col-md-8 ps-5 text-justify">
-              {# {{kint(paragraph.field_background_color.0.value.color)}} #}
-             {{ pattern('h5',{
-               text: paragraph.field_title.0.value
-              })}} 
-              {{ pattern('p',{
-               text: paragraph.field_text.0.value
-              })}} 
-          </div>
-          <div class="col-md-4 pt-5 mt-1 text-center ">
-            {{ pattern('button',{
-               text: 'hola',
-               url: paragraph.field_link.0.value.uri
-            })}}
-          </div>
-        </div>
+    {# { {{kint(paragraph.field_color.0.value)}} } #}
+      {{ pattern('paragraph',{
+            title: paragraph.field_title.0.value,
+            text: paragraph.field_text.0.value,
+            url: paragraph.field_link.0.value.uri,
+            color: paragraph.field_color.0.value,
+            btnColor : paragraph.field_button_.0.value,
+      })}} 
     {% endblock %}
   </div>
 {% endblock paragraph %}

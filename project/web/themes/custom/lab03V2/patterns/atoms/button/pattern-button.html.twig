@@ -1,1 +1,18 @@
-<a href="{{url}}" class="btn btn-outline-dark btn-lg noBorder">{{text}}</a>
+{%
+  set classes = [
+    'btn',
+     'text-light',
+    'btn-outline-dark',
+    'btn-lg',
+    'noBorder'
+  ]
+%}
+{% if variant == 'green' %}
+    {%
+      set classes = classes|merge([
+        'btn-success'
+      ])
+    %}
+{% endif %}
+
+<a href="{{url}}" {{ attributes.addClass(classes) }} >{{text}}</a>

@@ -1,6 +1,13 @@
 button: 
   label: 'Button'
   description: 'Button'
+  variants:
+    default:
+      label: default button
+      variant: green
+    green:
+      label: green button
+      description: button with grreen
   fields: 
     text: 
       type: string

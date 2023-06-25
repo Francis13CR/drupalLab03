@@ -1,17 +1,18 @@
-uuid: 0b59a283-8938-4ab5-8427-96bd60908392
+uuid: 09ef4ffb-721c-4aa1-b229-7243f48a44a3
 langcode: en
 status: true
 dependencies:
   module:
-    - color_field
+    - options
     - paragraphs
-id: paragraph.field_background_color
-field_name: field_background_color
+id: paragraph.field_button_style
+field_name: field_button_style
 entity_type: paragraph
-type: color_field_type
+type: list_string
 settings:
-  format: '#hexhex'
-module: color_field
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true
